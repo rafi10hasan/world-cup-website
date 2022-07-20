@@ -1,0 +1,111 @@
+/* ----header section heading paragrapgh part------- */
+
+@media screen and (min-width:713px) and (max-width:1194px){
+
+  .header-section{
+    
+    height: 100%;
+    width: 90%;
+     
+ }
+    .header-content h1{
+
+        font-size: 2.6rem;
+        margin-bottom: 25px;
+        color:white;
+       
+        
+    }
+    
+    .header-content .desktop-view{
+        display: none;
+    }
+
+    .header-content .Tablet-view{
+        display: block;
+    }
+}
+
+
+/* ...........blog section part----------- */
+
+/* ------------sidebar-section----------- */
+
+@media screen and (min-width:694px) and (max-width:1326px){
+ 
+    .main-blog-sec{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+        
+        
+      }
+
+      .side-bar-sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .side-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background:none;
+        width: 85vw;
+        height:20vh;
+        
+      }
+
+      .side-bar a{
+        border: 2px solid gray;
+      }
+
+      .view-all-btn{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .view-all-btn button{
+           border: none;
+           width: 131px;
+           height: 47px;
+           background-color: #dd0000;
+           color: white;
+           font-size: 1.2rem;
+           border-radius: 5px;
+           margin-bottom: 20px;
+      }
+
+}
+
+@media screen and (min-width:694px) and (max-width:1000px){
+    .news-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+      }
+      .view-all-btn{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .view-all-btn button{
+           border: none;
+           width: 131px;
+           height: 47px;
+           background-color: #dd0000;
+           color: white;
+           font-size: 1.2rem;
+           border-radius: 5px;
+      }
+}

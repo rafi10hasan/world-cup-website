@@ -1,0 +1,131 @@
+/* header section heading paragrapgh part----- */
+
+@media screen and (max-width:712px){
+
+    .header-section{
+       flex-direction: column;
+       height: 100%;
+       width: 90%;
+        
+    }
+
+    .header-img img{
+        width: 100%;
+        height: 285px;
+        margin-left: 10%;
+      }
+
+    .header-content h1{
+        font-size: 1.6rem;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        color:white;
+        text-align: center;
+       
+        
+    }
+
+    .header-content p{
+        width: 100%;
+        line-height: 1.4;
+    }
+
+    .watch-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .watch-btn button{
+        width: 167px;
+        height: 36px;
+        font-size: 1.1rem;
+        
+    }
+
+    .header-content .desktop-view{
+        display: none;
+    }
+
+    .header-content .Tablet-view{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+/* header section heading paragrapgh part end---- */
+
+/* ----blog section part---------------- */
+
+@media only screen and (max-width:693px){
+
+    .main-blog-sec{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0px;
+        
+        
+      }
+
+       .news-item{
+        width: 95%;
+        height: 415px;
+       }
+       .news-item img{
+        width: 100%;
+        height: 250px;
+       }
+
+      .news-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 4%;
+        width: 100%;
+        
+      }
+
+      /* ----------upcoming page------------ */
+
+      div#match-item.news-item{
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .news-item .flag-img img{
+        width: 120px;
+        height: 90px;
+    }
+
+    /* ------------all group-------- */
+    .group-content img{
+        width: 50px;
+        height: 35px;
+    }
+    #group-item{
+        margin-left: 1%;
+    }
+      
+}
+
+/* ----footer section part---- */
+
+@media screen and (max-width:720px) {
+    nav ul{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        margin: 10px 0px 20px 0px;  
+    }
+
+    nav ul li{
+        list-style: none;
+        margin: 0px 0px 0px 0px;
+    }
+    
+}
